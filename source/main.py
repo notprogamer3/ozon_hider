@@ -7,7 +7,6 @@ from selenium.webdriver.common.by import By
 
 
 while True:
-    sys.exit()
     print("Введите какой продукт ищем")
     inp1 = input()
     print('Введите от скольки отзывов показывать предложения')
