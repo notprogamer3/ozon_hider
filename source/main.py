@@ -31,8 +31,8 @@ while True:
                     print('Неправильный ввод. Попробуйте снова.\nВвод: ', end='')
                     inp1 = input()
                 if inp1 == '1':
+                    system('cls')
                     if pagenow == 1:
-                        system('cls')
                         print('Вы и так на первой страничке')
                     else:
                         pagenow -= 1
@@ -52,8 +52,8 @@ while True:
                             hideelems(driver, inp2)
                             fl = False
                             break
+                    system('cls')
                     if fl:
-                        system('cls')
                         print('Вы и так на последней страничке')
                 elif inp1 == '3':
                     driver.close()
