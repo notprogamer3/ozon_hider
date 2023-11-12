@@ -6,6 +6,7 @@ from selenium.webdriver.common.by import By
 from os import system
 
 
+
 while True:
     print("Введите какой продукт ищем")
     inp1 = input()
