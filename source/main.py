@@ -3,7 +3,7 @@ from hideelems import hideelems
 from seleniumbase import Driver as uc
 from selenium.webdriver.common.keys import Keys as kys
 from selenium.webdriver.common.by import By
-
+from os import system
 
 
 while True:
